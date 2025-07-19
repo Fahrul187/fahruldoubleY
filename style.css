@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: red;
+    display: flex;
+}
+
+.mainDiv {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-navbar {
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.list-navbar li a {
+    text-decoration: none;
+    color: black;
+
+}
